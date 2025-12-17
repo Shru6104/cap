@@ -1,0 +1,45 @@
+/* Page background */
+[data-testid="stAppViewContainer"] {
+    background: #eef6ff;
+}
+
+/* Chat container */
+.chat-container {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Title */
+.title {
+    text-align: center;
+    color: #0b3b54;
+    margin-bottom: 20px;
+}
+
+/* Messages */
+.user-msg {
+    background: #1e90ff;
+    color: white;
+    padding: 12px 16px;
+    border-radius: 12px;
+    max-width: 70%;
+    margin-left: auto;
+    margin-bottom: 10px;
+}
+
+.bot-msg {
+    background: white;
+    color: #0f1720;
+    padding: 12px 16px;
+    border-radius: 12px;
+    max-width: 70%;
+    margin-right: auto;
+    margin-bottom: 10px;
+    border: 1px solid #dde7f0;
+}
+
+/* Sidebar */
+section[data-testid="stSidebar"] {
+    background: #f8fbff;
+}
